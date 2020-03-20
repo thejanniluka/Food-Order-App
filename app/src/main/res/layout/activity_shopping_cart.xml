@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    tools:context=".ShoppngCart">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0E0E0E"
+            android:text="@string/tabName5"
+            android:textAlignment="center"
+            android:textColor="#F6F4F4"
+            android:textSize="36sp" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity"
+            android:textColor="#171616"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="240dp"
+            tools:layout_editor_absoluteY="290dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price2"
+            android:textColor="#201F1F"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="240dp"
+            tools:layout_editor_absoluteY="467dp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/foodName2"
+            android:textColor="#E40F0F"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="191dp"
+            tools:layout_editor_absoluteY="415dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="243dp"
+            android:layout_height="127dp"
+            android:contentDescription="@string/FoodName"
+            app:srcCompat="@drawable/osha"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-33dp"
+            tools:layout_editor_absoluteY="185dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FoodName"
+            android:textColor="#E40F0F"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="198dp"
+            tools:layout_editor_absoluteY="185dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textColor="#201F1F"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="240dp"
+            tools:layout_editor_absoluteY="239dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity"
+            android:textColor="#171616"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="240dp"
+            tools:layout_editor_absoluteY="512dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="154dp"
+            android:layout_height="155dp"
+            android:background="@drawable/egg"
+            android:contentDescription="@string/Descri"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="401dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="221dp"
+            android:layout_height="42dp"
+            android:background="#151414"
+            android:text="@string/btn6"
+            android:textColor="#E11158"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="87dp"
+            tools:layout_editor_absoluteY="625dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

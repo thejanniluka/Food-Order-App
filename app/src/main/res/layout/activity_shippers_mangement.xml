@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".ShippersMangement">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#EF2828"
+        android:text="@string/TabName2"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_alignBottom="@id/textView4"
+        android:layout_marginBottom="-228dp"
+        android:background="#FC1B1B1A"
+        android:backgroundTint="#5BFFFFFF"
+        android:layoutDirection="ltr"
+        android:text="@string/btn3"
+        android:textColor="#1E1E1C"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_alignBottom="@id/button7"
+        android:layout_marginBottom="-107dp"
+        android:backgroundTint="#81FFFFFF"
+        android:text="@string/btn4"
+        android:textSize="30sp" />
+</RelativeLayout>
